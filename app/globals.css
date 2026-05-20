@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8f5f2;
+  --foreground: #1f1f1f;
+
+  --accent: #c6a972;
+  --soft-beige: #efe7df;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section {
+  padding: 100px 8%;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+::selection {
+  background: black;
+  color: white;
+}
+
+img {
+  user-select: none;
+}
+.servicesSwiper {
+  padding-bottom: 70px;
+}
+
+.servicesSwiper .swiper-pagination {
+  bottom: 0px !important;
+}
+
+.servicesSwiper .swiper-pagination-bullet {
+  width: 34px;
+  height: 4px;
+  border-radius: 0;
+  background: white;
+  opacity: 1;
+  margin: 0 6px !important;
+  transition: all 0.3s ease;
+}
+
+.servicesSwiper .swiper-pagination-bullet-active {
+  background: #c8a76d;
+  width: 40px;
+}
+.servicesSwiper .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

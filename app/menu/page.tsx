@@ -1,30 +1,30 @@
-"use client";
+﻿"use client";
 
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 const cutting = [
-  ["Women's Wash/Cut/Style", "₹2500"],
-  ["Men's Cut", "₹1200"],
-  ["Children's Cut", "₹900"],
-  ["Women's Wash And Style", "₹1800"],
-  ["Formal Style", "₹3500"],
-  ["Hair Treatments", "₹1500"],
+  ["Women's Wash/Cut/Style", "â‚¹2500"],
+  ["Men's Cut", "â‚¹1200"],
+  ["Children's Cut", "â‚¹900"],
+  ["Women's Wash And Style", "â‚¹1800"],
+  ["Formal Style", "â‚¹3500"],
+  ["Hair Treatments", "â‚¹1500"],
 ];
 
 const colouring = [
-  ["Colour Retouch", "₹4500"],
-  ["Partial Foil", "₹6500"],
-  ["Full Foil", "₹9000"],
+  ["Colour Retouch", "â‚¹4500"],
+  ["Partial Foil", "â‚¹6500"],
+  ["Full Foil", "â‚¹9000"],
 ];
 
 const waxing = [
-  ["Facial Waxing & Threading", "₹700"],
-  ["Eyebrow", "₹300"],
-  ["Lip & Chin", "₹450"],
-  ["Threading", "₹500"],
-  ["Eyelash Extensions", "₹4500"],
-  ["Powder & Ombre Brows", "₹6500"],
+  ["Facial Waxing & Threading", "â‚¹700"],
+  ["Eyebrow", "â‚¹300"],
+  ["Lip & Chin", "â‚¹450"],
+  ["Threading", "â‚¹500"],
+  ["Eyelash Extensions", "â‚¹4500"],
+  ["Powder & Ombre Brows", "â‚¹6500"],
 ];
 
 export default function MenuPage() {
@@ -57,7 +57,7 @@ export default function MenuPage() {
       </div>
 
       {/* HERO */}
-      <section className="relative pt-[118px] h-[130px] overflow-hidden">
+      <section className="relative pt-[118px] pb-6 overflow-hidden">
 
         <div
           className="
@@ -88,7 +88,8 @@ export default function MenuPage() {
                 text-white
 
                 text-[2rem]
-                lg:text-[3.4rem]
+                sm:text-[3rem]
+                lg:text-[3.8rem]
 
                 leading-none
               "
@@ -154,7 +155,7 @@ export default function MenuPage() {
 
               <div className="w-44 h-[2px] bg-[#c8a76d]" />
 
-              <div className="text-[#c8a76d] text-xl">✦</div>
+              <div className="text-[#c8a76d] text-xl">âœ¦</div>
 
             </div>
 
@@ -243,7 +244,7 @@ export default function MenuPage() {
                       text-[1rem]
                       lg:text-[1.15rem]
 
-                      whitespace-nowrap
+                      break-words
                     "
                   >
                     {item[0]}
@@ -260,7 +261,7 @@ export default function MenuPage() {
                       text-[1rem]
                       lg:text-[1.2rem]
 
-                      whitespace-nowrap
+                      break-words
                     "
                   >
                     {item[1]}
@@ -317,7 +318,7 @@ export default function MenuPage() {
                       text-[1rem]
                       lg:text-[1.15rem]
 
-                      whitespace-nowrap
+                      break-words
                     "
                   >
                     {item[0]}
@@ -332,7 +333,7 @@ export default function MenuPage() {
                       text-[1rem]
                       lg:text-[1.2rem]
 
-                      whitespace-nowrap
+                      break-words
                     "
                   >
                     {item[1]}
@@ -389,7 +390,7 @@ export default function MenuPage() {
                       text-[1rem]
                       lg:text-[1.15rem]
 
-                      whitespace-nowrap
+                      break-words
                     "
                   >
                     {item[0]}
@@ -404,7 +405,7 @@ export default function MenuPage() {
                       text-[1rem]
                       lg:text-[1.2rem]
 
-                      whitespace-nowrap
+                      break-words
                     "
                   >
                     {item[1]}

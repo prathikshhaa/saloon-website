@@ -67,7 +67,7 @@ Message: ${form.message}
       </div>
 
       {/* HERO */}
-      <section className="relative z-20 mt-30 pt-[135px]">
+      <section className="relative z-20 pt-[110px] sm:pt-[130px]">
 
         <div
           className="
@@ -125,7 +125,7 @@ Message: ${form.message}
             border-white/10
 
             p-8
-            lg:pp-5 lg:p-14
+            lg:px-5 lg:p-14
 
             shadow-[0_25px_80px_rgba(0,0,0,0.5)]
           "

@@ -85,8 +85,8 @@ export default function ServicesPage() {
 
       </div>
 
-      {/* HERO */}overflow-hidden
-      <section className="relative pt-[118px] h-[130px] ">
+      {/* HERO */}
+      <section className="relative pt-[118px] md:pt-[120px] pb-6 overflow-hidden">
 
         <div
           className="
@@ -104,19 +104,20 @@ export default function ServicesPage() {
             border
             border-white/10
 
-            py-4
+            py-6
 
             shadow-none
           "
         >
 
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center px-4 sm:px-6">
 
             <h1
               className="
                 text-white
-text-[1rem] lg:text-[2rem]
-                lg:text-[3.4rem]
+                text-[2rem]
+                sm:text-[3rem]
+                lg:text-[4rem]
 
                 leading-none
               "
@@ -165,7 +166,8 @@ text-[1rem] lg:text-[2rem]
           <div
             className="
               grid
-              lg:grid-cols-1 md:grid-cols-2
+              grid-cols-1
+              md:grid-cols-2
 
               gap-2 lg:gap-5 lg:gap-10
               items-center

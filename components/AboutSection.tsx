@@ -4,34 +4,16 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 export default function AboutSection() {
   return (
-    <section className="relative bg-white overflow-x-hidden py-8 lg:py-10">
+    <section className="relative bg-white overflow-hidden py-8 lg:py-10">
 
       {/* BACKGROUND WOMAN IMAGE */}
-      <div className="absolute inset-0">
-
+      <div className="absolute inset-0 hidden md:block pointer-events-none">
         <img
           src="/change-woman.png"
           alt="Luxury Beauty"
-          className="
-            absolute
-            left-0
-            top-1/2
-            -translate-y-1/2
-
-            h-[105%]
-            lg:h-[125%]
-
-            w-auto
-            object-contain
-            object-left
-
-            opacity-100
-          "
+          className="absolute left-0 top-1/2 -translate-y-1/2 h-auto w-[55%] lg:w-[45%] max-h-[95vh] object-cover object-left opacity-100"
         />
-
-        {/* SOFT WHITE OVERLAY */}
         <div className="absolute inset-0 bg-white/12" />
-
       </div>
 
       {/* CONTENT */}
@@ -46,6 +28,7 @@ export default function AboutSection() {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
             className="max-w-[720px]"
+            style={{ willChange: "transform, opacity" }}
           >
 
             {/* SMALL TEXT */}
@@ -71,7 +54,7 @@ export default function AboutSection() {
 
                 text-[2.5rem]
                 sm:text-[3rem]
-                lg:text-[1rem] lg:text-[2rem] lg:text-[4rem]
+                lg:text-[4rem]
               "
               style={{
                 fontFamily: "Playfair Display, serif",

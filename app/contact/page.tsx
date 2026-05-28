@@ -62,7 +62,7 @@ ${form.message}
       </div>
 
       {/* HERO */}
-      <section className="relative z-20 mt-30 pt-[160px] lg:pt-[130px]">
+      <section className="relative z-20 pt-[110px] sm:pt-[130px]">
 
         <div
           className="
@@ -117,8 +117,9 @@ ${form.message}
             border
             border-white/10
 
-            p-10
-            lg:p-5 lg:p-14
+            p-6
+            sm:p-8
+            lg:p-14
 
             shadow-[0_25px_80px_rgba(0,0,0,0.5)]
           "
@@ -127,7 +128,8 @@ ${form.message}
           <div
             className="
               grid
-              lg:grid-cols-1 md:grid-cols-2
+              grid-cols-1
+              md:grid-cols-2
 
               gap-6 lg:gap-14
             "

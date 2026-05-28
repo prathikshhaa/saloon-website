@@ -66,7 +66,7 @@ export default function WomenGalleryPage() {
       </div>
 
       {/* HERO */}
-      <section className="relative z-30 mt-30 pt-[115px]">
+      <section className="relative z-30 pt-[110px] sm:pt-[115px]">
 
         <div
           className="
@@ -112,13 +112,13 @@ export default function WomenGalleryPage() {
 
         <div
           className="
-           max-w-[95%] lg:max-w-6xl
+            max-w-[95%] lg:max-w-6xl
             mx-auto
 
             flex
             flex-wrap
 
-            gap-15
+            gap-4 md:gap-6
 
             px-6
 
@@ -186,10 +186,10 @@ export default function WomenGalleryPage() {
 
             grid
             grid-cols-1
-            sm:grid-cols-1 md:grid-cols-2
-            lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+            md:grid-cols-2
+            lg:grid-cols-3
 
-            gap-15
+            gap-4 md:gap-5 lg:gap-10
 
             px-6
           "

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 export default function AboutSection() {
   return (
-    <section className="relative bg-white overflow-hidden py-8 lg:py-10">
+    <section className="relative bg-white overflow-x-hidden py-8 lg:py-10">
 
       {/* BACKGROUND WOMAN IMAGE */}
       <div className="absolute inset-0">
@@ -35,9 +35,9 @@ export default function AboutSection() {
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-16">
+      <div className="relative z-10 max-w-[95%] lg:max-w-7xl mx-auto px-6 lg:px-16">
 
-        <div className="flex justify-end items-center min-h-[430px]">
+        <div className="flex justify-end items-center min-h-[260px] sm:h-[340px] lg:h-[430px]">
 
           {/* RIGHT CONTENT */}
           <motion.div
@@ -71,7 +71,7 @@ export default function AboutSection() {
 
                 text-[2.5rem]
                 sm:text-[3rem]
-                lg:text-[4rem]
+                lg:text-[1rem] lg:text-[2rem] lg:text-[4rem]
               "
               style={{
                 fontFamily: "Playfair Display, serif",

@@ -9,7 +9,7 @@ export default function Services() {
           Services
         </p>
 
-        <h2 className="text-5xl lg:text-7xl leading-tight max-w-4xl">
+        <h2 className="text-3xl lg:text-5xl lg:text-7xl leading-tight max-w-[95%] lg:max-w-4xl">
           Crafted grooming and beauty experiences for modern lifestyles.
         </h2>
       </div>
@@ -17,7 +17,7 @@ export default function Services() {
       <div className="space-y-32">
 
         {/* SERVICE 1 */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
           <img
             src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186"
@@ -30,7 +30,7 @@ export default function Services() {
               Hair Styling
             </p>
 
-            <h3 className="text-5xl mb-8">
+            <h3 className="text-3xl lg:text-5xl mb-8">
               Precision cuts and luxury styling.
             </h3>
 
@@ -54,7 +54,7 @@ export default function Services() {
               Skin & Beauty
             </p>
 
-            <h3 className="text-5xl mb-8">
+            <h3 className="text-3xl lg:text-5xl mb-8">
               Rejuvenation designed for confidence.
             </h3>
 

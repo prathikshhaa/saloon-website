@@ -7,8 +7,8 @@ export default function Contact() {
           <p className="uppercase tracking-[0.3em] text-sm text-[#c6a972] mb-4">
             Contact
           </p>
-
-          <h2 className="text-5xl mb-8">
+ 
+          <h2 className="text-3xl lg:text-5xl mb-8">
             Book Your Luxury Experience
           </h2>
 

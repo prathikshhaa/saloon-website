@@ -34,7 +34,7 @@ ${form.message}
   };
 
   return (
-    <main className="bg-black min-h-screen overflow-hidden">
+    <main className="bg-black min-h-screen overflow-x-hidden">
 
       <Navbar />
 
@@ -62,11 +62,11 @@ ${form.message}
       </div>
 
       {/* HERO */}
-      <section className="relative z-20 mt-30 pt-[130px]">
+      <section className="relative z-20 mt-30 pt-[160px] lg:pt-[130px]">
 
         <div
           className="
-            max-w-4xl
+            max-w-[95%] lg:max-w-4xl
             mx-auto
 
             bg-black/75
@@ -88,7 +88,7 @@ ${form.message}
               text-white
 
               text-[2.3rem]
-              lg:text-[4rem]
+              lg:text-[1rem] lg:text-[2rem] lg:text-[4rem]
             "
             style={{
               fontFamily: "Playfair Display, serif",
@@ -106,7 +106,7 @@ ${form.message}
 
         <div
           className="
-            max-w-5xl
+            max-w-[95%] lg:max-w-5xl
             mx-auto
 
             bg-black/72
@@ -118,7 +118,7 @@ ${form.message}
             border-white/10
 
             p-10
-            lg:p-14
+            lg:p-5 lg:p-14
 
             shadow-[0_25px_80px_rgba(0,0,0,0.5)]
           "
@@ -127,9 +127,9 @@ ${form.message}
           <div
             className="
               grid
-              lg:grid-cols-2
+              lg:grid-cols-1 md:grid-cols-2
 
-              gap-14
+              gap-6 lg:gap-14
             "
           >
 
@@ -155,7 +155,7 @@ ${form.message}
                 className="
                   text-white
 
-                  text-[2rem]
+                  text-[1rem] lg:text-[2rem]
                   lg:text-[3rem]
 
                   leading-[1.1]

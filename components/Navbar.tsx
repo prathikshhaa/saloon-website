@@ -25,13 +25,14 @@ export default function Navbar() {
     >
       <div
         className="
-          max-w-7xl
+          max-w-[95%] lg:max-w-7xl
           mx-auto
 
           px-6
-          lg:px-10
+          lg:w-full sm:w-auto px-10
 
-          h-[92px]
+          min-h-[92px]
+py-4
 
           flex
           items-center
@@ -52,7 +53,7 @@ export default function Navbar() {
         </Link>
 
         {/* NAVIGATION */}
-        <nav className="hidden lg:flex items-center gap-12">
+        <nav className="flex flex-wrap justify-center items-center gap-4 lg:gap-12">
 
         {/* HOME */}
 <Link
@@ -276,7 +277,7 @@ export default function Navbar() {
       bg-[#c8a76d]
       text-white
 
-      px-10
+      w-full sm:w-auto px-10
       py-4
 
       rounded-full

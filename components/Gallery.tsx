@@ -16,12 +16,12 @@ export default function Gallery() {
           Gallery
         </p>
 
-        <h2 className="text-5xl mb-6">
+        <h2 className="text-3xl lg:text-5xl mb-6">
           Our Beauty Work
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {images.map((image, index) => (
           <motion.div
             key={index}
@@ -31,7 +31,7 @@ export default function Gallery() {
             <img
               src={image}
               alt="Salon"
-              className="h-[500px] w-full object-cover"
+              className="h-[320px] lg:h-[500px] w-full object-cover"
             />
           </motion.div>
         ))}

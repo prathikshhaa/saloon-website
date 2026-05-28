@@ -41,7 +41,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden bg-black">
+    <section className="relative h-screen overflow-x-hidden bg-black">
 
       {/* BACKGROUND */}
       <AnimatePresence mode="wait">

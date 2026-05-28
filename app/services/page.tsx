@@ -62,7 +62,7 @@ const services = [
 
 export default function ServicesPage() {
   return (
-    <main className="bg-transparent min-h-screen overflow-hidden">
+    <main className="bg-transparent min-h-screen overflow-x-hidden">
 
       <Navbar />
 
@@ -85,8 +85,8 @@ export default function ServicesPage() {
 
       </div>
 
-      {/* HERO */}
-      <section className="relative pt-[118px] h-[130px] overflow-hidden">
+      {/* HERO */}overflow-hidden
+      <section className="relative pt-[118px] h-[130px] ">
 
         <div
           className="
@@ -115,8 +115,7 @@ export default function ServicesPage() {
             <h1
               className="
                 text-white
-
-                text-[2rem]
+text-[1rem] lg:text-[2rem]
                 lg:text-[3.4rem]
 
                 leading-none
@@ -166,9 +165,9 @@ export default function ServicesPage() {
           <div
             className="
               grid
-              lg:grid-cols-2
+              lg:grid-cols-1 md:grid-cols-2
 
-              gap-10
+              gap-2 lg:gap-5 lg:gap-10
               items-center
 
               border-b
@@ -270,7 +269,7 @@ export default function ServicesPage() {
             <h2
               className="
                 text-white
-                text-4xl
+                text-2xl lg:text-4xl
                 mb-8
               "
               style={{
@@ -340,7 +339,7 @@ export default function ServicesPage() {
                 text-center
                 text-[#c8a76d]
 
-                text-5xl
+                text-3xl lg:text-5xl
                 mb-16
               "
               style={{

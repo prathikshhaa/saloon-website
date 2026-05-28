@@ -81,7 +81,7 @@ export default function ServicesSection() {
       </div>
 
       {/* SLIDER */}
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[95%] lg:max-w-7xl mx-auto px-6">
 
         <Swiper
           modules={[Autoplay, Pagination]}
@@ -136,7 +136,7 @@ export default function ServicesSection() {
       alt={service.title}
       className="
         w-full
-        h-[430px]
+        h-[260px] sm:h-[340px] lg:h-[430px]
         object-cover
 
         transition-all
@@ -266,7 +266,7 @@ export default function ServicesSection() {
       bg-[#c8a76d]
       text-white
 
-      px-10
+      w-full sm:w-auto px-10
       py-4
 
       tracking-[0.18em]

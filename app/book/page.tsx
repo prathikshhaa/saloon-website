@@ -39,7 +39,7 @@ Message: ${form.message}
   };
 
   return (
-    <main className="bg-black min-h-screen overflow-hidden">
+    <main className="bg-black min-h-screen overflow-x-hidden">
 
       <Navbar />
 
@@ -71,7 +71,7 @@ Message: ${form.message}
 
         <div
           className="
-            max-w-5xl
+            max-w-[95%] lg:max-w-5xl
             mx-auto
 
             bg-black/75
@@ -125,13 +125,13 @@ Message: ${form.message}
             border-white/10
 
             p-8
-            lg:p-14
+            lg:pp-5 lg:p-14
 
             shadow-[0_25px_80px_rgba(0,0,0,0.5)]
           "
         >
 
-          <div className="grid lg:grid-cols-2 gap-14">
+          <div className="grid lg:grid-cols-1 md:grid-cols-2 gap-6 lg:gap-14">
 
             {/* LEFT */}
             <div>
@@ -155,7 +155,7 @@ Message: ${form.message}
                 className="
                   text-white
 
-                  text-[2rem]
+                  text-[1rem] lg:text-[2rem]
                   lg:text-[3.2rem]
 
                   leading-[1.1]

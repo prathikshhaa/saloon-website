@@ -38,7 +38,7 @@ export default function MenGalleryPage() {
   const [active, setActive] = useState("HAIRSTYLES");
 
   return (
-    <main className="bg-black min-h-screen overflow-hidden">
+    <main className="bg-black min-h-screen overflow-x-hidden">
 
       <Navbar />
 
@@ -70,7 +70,7 @@ export default function MenGalleryPage() {
 
         <div
           className="
-            max-w-4xl
+            max-w-[95%] lg:max-w-4xl
             mx-auto
 
             bg-black/75
@@ -112,7 +112,7 @@ export default function MenGalleryPage() {
 
         <div
           className="
-            max-w-6xl
+            max-w-[95%] lg:max-w-6xl
             mx-auto
 
             flex
@@ -137,7 +137,7 @@ export default function MenGalleryPage() {
                 text-white
 
                 text-[1.2rem]
-                lg:text-[2rem]
+                lg:text-[1rem] lg:text-[2rem]
 
                 font-semibold
 
@@ -181,15 +181,15 @@ export default function MenGalleryPage() {
 
         <div
           className="
-            max-w-7xl
+            max-w-[95%] lg:max-w-7xl
             mx-auto
 
             grid
             grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
+            sm:grid-cols-1 md:grid-cols-2
+            lg:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
 
-            gap-10
+            gap-2 lg:gap-5 lg:gap-10
 
             px-6
           "
@@ -231,7 +231,7 @@ export default function MenGalleryPage() {
                     alt="Gallery"
                     className="
                       w-full
-                      h-[430px]
+                      h-[260px] sm:h-[340px] lg:h-[430px]
 
                       object-cover
 

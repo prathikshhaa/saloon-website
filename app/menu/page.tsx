@@ -29,7 +29,7 @@ const waxing = [
 
 export default function MenuPage() {
   return (
-    <main className="bg-transparent min-h-screen overflow-hidden">
+    <main className="bg-transparent min-h-screen overflow-x-hidden">
 
       <Navbar />
 
@@ -64,7 +64,7 @@ export default function MenuPage() {
             relative
             z-20
 
-            max-w-4xl
+            max-w-[95%] lg:max-w-4xl
             mx-auto
 
             bg-black/75
@@ -113,7 +113,7 @@ export default function MenuPage() {
             relative
             z-20
 
-            max-w-4xl
+            max-w-[95%] lg:max-w-4xl
             mx-auto
 
             bg-black/72
@@ -125,7 +125,7 @@ export default function MenuPage() {
             border-white/10
 
             px-8
-            lg:px-14
+            lg:px-5 lg:px-14
 
             py-14
 
@@ -140,7 +140,7 @@ export default function MenuPage() {
               className="
                 text-white
 
-                text-5xl
+                text-3xl lg:text-5xl
                 mb-6
               "
               style={{
@@ -162,7 +162,7 @@ export default function MenuPage() {
               className="
                 text-[#c8a76d]
 
-                text-[2rem]
+                text-[1rem] lg:text-[1rem] lg:text-[2rem]
                 lg:text-[3rem]
 
                 leading-tight
@@ -187,7 +187,7 @@ export default function MenuPage() {
 
                 leading-[2]
 
-                max-w-5xl
+                max-w-[95%] lg:max-w-5xl
               "
             >
               Experience luxury hair and beauty services
@@ -206,7 +206,7 @@ export default function MenuPage() {
               className="
                 text-white
 
-                text-4xl
+                text-2xl lg:text-4xl
                 mb-10
               "
               style={{
@@ -280,7 +280,7 @@ export default function MenuPage() {
               className="
                 text-white
 
-                text-4xl
+                text-2xl lg:text-4xl
                 mb-10
               "
               style={{
@@ -298,7 +298,7 @@ export default function MenuPage() {
                   className="
                     flex
                     items-center
-                    gap-5
+                    gap-2 lg:gap-2 lg:gap-5
 
                     text-white
 
@@ -352,7 +352,7 @@ export default function MenuPage() {
               className="
                 text-white
 
-                text-4xl
+                text-2xl lg:text-4xl
                 mb-10
               "
               style={{
@@ -370,7 +370,7 @@ export default function MenuPage() {
                   className="
                     flex
                     items-center
-                    gap-5
+                    gap-2 lg:gap-5
 
                     text-white
 
@@ -443,7 +443,7 @@ export default function MenuPage() {
                 bg-[#c8a76d]
                 text-white
 
-                px-10
+                w-full sm:w-auto px-10
                 py-4
 
                 rounded-full

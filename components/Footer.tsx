@@ -21,11 +21,11 @@ export default function Footer() {
 
       <div
         className="
-          max-w-7xl
+          max-w-[95%] lg:max-w-7xl
           mx-auto
 
           px-6
-          lg:px-10
+          lg:w-full sm:w-auto px-10
 
           py-16
         "
@@ -36,7 +36,7 @@ export default function Footer() {
             grid
             lg:grid-cols-4
 
-            gap-14
+            gap-6 lg:gap-14
           "
         >
 
@@ -47,7 +47,7 @@ export default function Footer() {
               className="
                 text-white
 
-                text-4xl
+                text-2xl lg:text-4xl
 
                 mb-5
               "

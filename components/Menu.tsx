@@ -7,7 +7,7 @@ export default function Menu() {
           Pricing Menu
         </p>
 
-        <h2 className="text-5xl lg:text-7xl">
+        <h2 className="text-3xl lg:text-5xl lg:text-7xl">
           Premium Services
         </h2>
       </div>
